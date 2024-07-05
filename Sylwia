@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cookie&family=Poppins:ital,wght@0,300;0,500;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="portfolio.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <main>
+        <nav id="navbar">
+            <ul>
+                <li><a href="#intro-section">Strona Główna</a></li>
+                <li><a href="#about-section">O mnie</a></li>
+                <li><a href="#skills-section">Umiejętności</a></li>
+                <li><a href="#projects-section">Projekty</a></li>
+                <li><a href="#contact-section">Kontakt</a></li>
+            </ul>
+
+        </nav>
+        <section id="intro-section"></section>
+        <section id="welcome-section">
+            <div class="message">
+                <p>Cześć ! <br> Ja chciałabym być Frontend Developer</p>
+            </div>
+            <div class="message">
+                <img src="https://cdn.pixabay.com/photo/2017/03/23/09/34/artificial-intelligence-2167835_640.jpg" alt="">
+            </div>
+        </section>
+        <section id="about-section">
+            <h1 class="section-heading">O mnie</h1>
+            <div class="about-container">
+                <div class="message my-image">
+                    <img src="/images/about me.jpg" alt="">
+                </div>
+                <div class="message my-information">
+                    <p>Nazywam się  Sylwia</p>
+                    <p>Jestem programistką i entuzjastką technologii.</p>
+                    <p>Postanowiłam aktywnie rozwijać swoje kompetencje w branży informatycznej poprzez udział w kursach i samodzielne ćwiczenia, co umożliwiło mi opanowanie podstawowych języków programowania. W pracy jestem sumienna, dokładna i szybko przyswajam nowe umiejętności. Dzięki wytrwałości, cierpliwości i determinacji skutecznie dążę do wyznaczonych celów.
+                        </p>
+                </div>
+            </div>
+        </section>
+
+
+<section id="skills-section">
+    <h1 class="section-heading">Moje umiejętności</h1>
+    <div class="skills-container">
+
+        <div class="skill-information">
+            <p><i class="fab fa-html5 fa-3x"></i></p>
+            <p class="skill-name"> HTML5</p>
+            <P><progress value="95" max="100"></progress></P>
+
+        </div>
+        <div class="skill-information">
+            <p><i class="fab fa-css3 fa-3x"></i></p>
+            <p class="skill-name"> CSS3</p>
+            <P><progress value="95" max="100"></progress></P>
+
+        </div>
+        <div class="skill-information">
+            <p><i class="fab fa-js fa-3x"></i></p>
+            <p class="skill-name"> JavaScript</p>
+            <P><progress value="85" max="100"></progress></P>
+
+        </div>
+        <div class="skill-information">
+            <p><i class="fab fa-react fa-3x"></i></p>
+            <p class="skill-name"> React</p>
+            <P><progress value="60" max="100"></progress></P>
+
+        </div>
+        <div class="skill-information">
+            <p><i class="fab fa-angular fa-3x"></i></p>
+            <p class="skill-name"> Angular</p>
+            <P><progress value="50" max="100"></progress></P>
+
+        </div>
+        <div class="skill-information">
+            <p><i class="fab fa-bootstrap fa-3x"></i></p>
+            <p class="skill-name"> Bootstrap</p>
+            <P><progress value="90" max="100"></progress></P>
+
+        </div>
+        <div class="skill-information">
+            <p><i class="fa fa-database fa-3x"></i></p>
+            <p class="skill-name"> Sql</p>
+            <P><progress value="75" max="100"></progress></P>
+
+        </div>
+    </div>
+</section>
+
+<section class="projects-section">
+    <h1 class="section-heading">Moje projekty</h1>
+    <div class="projects-container">
+        <div class="image-box">
+            <a href="/strona 2/index.html" >
+                <img src="https://cdn.pixabay.com/photo/2017/10/31/11/30/binary-2904980_640.jpg" alt="">
+                <div>Platforma szkoleniowa Super Pharm</div>
+            </a>
+        </div>
+        <div class="image-box">
+            <a href="/pizzeria/pizzeria.html" >
+                <img src="https://cdn.pixabay.com/photo/2019/06/17/19/48/source-4280758_640.jpg"  alt="">
+                <div>Projekt Pizzeria</div>
+            </a>
+        </div>
+        <div class="image-box">
+            <a href="/weather/index.html" >
+                <img src="https://cdn.pixabay.com/photo/2018/12/10/02/13/block-chain-3866139_640.jpg" alt="">
+                <div>Pogoda</div>
+            </a>
+        </div>
+        <div class="image-box">
+            <a href="#" >
+                <img src="https://cdn.pixabay.com/photo/2022/01/17/09/01/binary-6944162_640.jpg" alt="">
+                <div>Test</div>
+            </a>
+        </div>
+        <div class="image-box">
+            <a href="#" >
+                <img src="https://cdn.pixabay.com/photo/2019/12/14/08/52/artificial-intelligence-4694502_640.jpg" alt="">
+                <div>Test</div>
+            </a>
+        </div>
+        <div class="image-box">
+            <a href="#" >
+                <img src="https://cdn.pixabay.com/photo/2020/01/09/01/57/digitization-4751659_640.jpg" alt="">
+                <div>Test</div>
+            </a>
+        </div>
+    </div>
+</section>
+<section id="contact-section">
+    <h1 class="section-heading">Pracujmy razem</h1>
+    <p>Znajdziesz mnie na:</p>
+    <p>
+        <a href="#"> <i class="fa-brands fa-github"> Github </i></a>
+        <a href="https://www.linkedin.com/in/sylwia-perlik-aa92b4238/"> <i class="fab fa-linkedin-in"> Linkedin </i></a>
+        <a href="#"> <i class="fa-solid fa-envelope"> Email </i></a>
+    </p>
+</section>
+
+
+    </main>
+    
+</body>
+</html>
